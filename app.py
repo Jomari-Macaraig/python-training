@@ -1,4 +1,3 @@
-name = "John Smith"
-age = 19
-price = 1999.99
-is_max = False
+name = input("Hello, what's your name? ")
+print("Nice to meet you " + name)
+# print(f"Nice to meet you {name}")
