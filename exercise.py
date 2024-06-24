@@ -1,9 +1,9 @@
-title = "Python Day 1 Training"
-
-# print(title.upper())
-# print(title.lower())
-# print(title.index("y"))
-# print(title.index("Y"))
-# print(title.replace("1", "One"))
-# print(title.replace("2", "Two"))
-print(title)
+number = int(input("Enter a number: "))
+if number % 3 == 0 and number % 5 == 0:
+    print("FizzBuzz")
+elif number % 3 == 0:
+    print("Fizz")
+elif number % 5 == 0:
+    print("Buzz")
+else:
+    print(number)
