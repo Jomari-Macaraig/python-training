@@ -1,3 +1,9 @@
-first_number = float(input("First number: "))
-second_number = float(input("Second number: "))
-print(f"Sum: {first_number + second_number}")
+title = "Python Day 1 Training"
+
+# print(title.upper())
+# print(title.lower())
+# print(title.index("y"))
+# print(title.index("Y"))
+# print(title.replace("1", "One"))
+# print(title.replace("2", "Two"))
+print(title)
