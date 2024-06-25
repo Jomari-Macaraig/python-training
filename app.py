@@ -1,13 +1,30 @@
-numbers = [1, 2, 3, 4, 5]
+numbers = [1, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 9, 9]
 
-# for number in numbers:
-#     print(number)
+unique_numbers = set(numbers)
 
-# index = 0
-# while index < len(numbers):
-#     print(numbers[index])
-#     index += 1
-
-
-# for number in range(1, 6):
-#     print(number)
+# mathematics = [
+#     "Charlotte",
+#     "Lewis",
+#     "Olivia",
+#     "Eddie",
+#     "Sophia",
+#     "Liam",
+#     "Brea",
+#     "Avery",
+#     "Noah",
+# ]
+#
+# economics = [
+#     "Isabella",
+#     "Mia",
+#     "Eric",
+#     "Sophia",
+#     "Liam",
+#     "Brea",
+#     "Avery",
+#     "Noah",
+# ]
+#
+# print(set(mathematics).difference(set(economics)))
+# print(set(mathematics).intersection((set(economics))))
+# print(set(economics).difference((set(mathematics))))
