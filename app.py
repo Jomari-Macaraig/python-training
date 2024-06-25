@@ -1,24 +1,13 @@
-names = ["John", "Smith", "Mary", "Bob", "Tom", "Mary"]
-print(names)
+numbers = [1, 2, 3, 4, 5]
 
-# print(names[0])
-# print(names[-1])
-# print(names[-2])
+# for number in numbers:
+#     print(number)
 
-# print(names[0:4])
-# print(names[:4])
-# print(names[1:])
+# index = 0
+# while index < len(numbers):
+#     print(numbers[index])
+#     index += 1
 
-# print(names[::2])
 
-# names[0] = "Jon"
-
-# names.append("Joms")
-# names.insert(0, "Joms")
-# names.remove("Bob")
-# names.clear()
-
-# "Joms" in names
-
-# print(len(names))
-print(names)
+# for number in range(1, 6):
+#     print(number)
